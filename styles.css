@@ -1,0 +1,12 @@
+html {
+  height: -webkit-fill-available; /* We have to fix html height */
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background-color: #eee;
+}
+.container {
+  min-height: 100vh !important;
+}
